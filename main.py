@@ -1,16 +1,22 @@
-# This is a sample Python script.
+arr = [5, 3, 4]
+win = []
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+def findIndexes(arr, sumValue):
+    allSubs = []
+    cnt = 0
+    for i in range(len(arr)):
+        for j in range(len(arr)):
+            sub = arr[i:j+1]
+            allSubs.append(sub)
+    for i in range(len(allSubs)):
+        if(sum(allSubs[i]) == sumValue):
+            win.append(allSubs[i])
+            cnt += 1
+    if(cnt == 0):
+        return -1
+    result = []
+    for i in range(len(win[0])):
+        result.append(arr.index(win[0][i])+1)
+        result = [result[0], result[len(result)-1]]
+    return(result)
+print(findIndexes(arr, 2))
