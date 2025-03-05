@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cc5b89d-12c4-4ee5-96fb-8edb62de4c22" name="Changes" comment="INIT COMMIT">
-      <change afterPath="$PROJECT_DIR$/main8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main7.py" beforeDir="false" afterPath="$PROJECT_DIR$/main7.py" afterDir="false" />
-    </list>
+    <list default="true" id="2cc5b89d-12c4-4ee5-96fb-8edb62de4c22" name="Changes" comment="INIT COMMIT" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,7 +273,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740852156614</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="INIT COMMIT">
+      <option name="closed" value="true" />
+      <created>1741165474303</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741165474303</updated>
+    </task>
+    <task id="LOCAL-00012" summary="INIT COMMIT">
+      <option name="closed" value="true" />
+      <created>1741168308912</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741168308912</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
