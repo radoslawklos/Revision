@@ -21,18 +21,20 @@ class LinkedList:
         temp.next = new_node
 
     def find_mid(self):
-        cnt = 0
-        tmp = self.head
-        while tmp and tmp.next:
-            cnt += 1
-            tmp = tmp.next
-        cnt = cnt//2
-        res = self.head
-        for i in range(cnt):
-            res = res.next
-        return res.data
+        slow = self.head
+        fast = self.head
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+        return slow.data if slow else None
 
 ll = LinkedList()
-for i in range(1,7):
-    ll.append(i)
+ll.append(2)
+ll.append(4)
+ll.append(6)
+ll.append(7)
+ll.append(5)
+ll.append(1)
 print(ll.find_mid())
