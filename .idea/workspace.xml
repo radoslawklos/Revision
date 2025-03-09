@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cc5b89d-12c4-4ee5-96fb-8edb62de4c22" name="Changes" comment="INIT COMMIT">
-      <change afterPath="$PROJECT_DIR$/main11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quicksort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main12.py" beforeDir="false" afterPath="$PROJECT_DIR$/main12.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
     "Python.main.executor": "Run",
     "Python.main10.executor": "Run",
     "Python.main11.executor": "Run",
+    "Python.main12.executor": "Debug",
     "Python.main2.executor": "Run",
     "Python.main3.executor": "Run",
     "Python.main4.executor": "Run",
@@ -64,7 +64,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.quicksort">
+  <component name="RunManager" selected="Python.main12">
     <configuration name="main10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AmazonTasks" />
       <option name="ENV_FILES" value="" />
@@ -109,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AmazonTasks" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,7 +122,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main12" />
         <item itemvalue="Python.quicksort" />
         <item itemvalue="Python.main11" />
         <item itemvalue="Python.main10" />
         <item itemvalue="Python.main9" />
-        <item itemvalue="Python.main8" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741544277529</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="INIT COMMIT">
+      <option name="closed" value="true" />
+      <created>1741548401712</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1741548401712</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -348,6 +356,11 @@
           <url>file://$PROJECT_DIR$/main11.py</url>
           <line>5</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main12.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
