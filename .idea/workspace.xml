@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cc5b89d-12c4-4ee5-96fb-8edb62de4c22" name="Changes" comment="INIT COMMIT">
+      <change afterPath="$PROJECT_DIR$/main10.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main9.py" beforeDir="false" afterPath="$PROJECT_DIR$/main9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
+    "Python.main10.executor": "Run",
     "Python.main2.executor": "Run",
     "Python.main3.executor": "Run",
     "Python.main4.executor": "Run",
@@ -60,8 +61,8 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main9">
-    <configuration name="main5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main10">
+    <configuration name="main10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AmazonTasks" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,7 +75,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main10" />
         <item itemvalue="Python.main9" />
         <item itemvalue="Python.main8" />
         <item itemvalue="Python.main7" />
         <item itemvalue="Python.main6" />
-        <item itemvalue="Python.main5" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741186506368</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="INIT COMMIT">
+      <option name="closed" value="true" />
+      <created>1741187240419</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741187240419</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
